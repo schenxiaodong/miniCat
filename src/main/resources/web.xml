@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>cxd</servlet-name>
+        <servlet-class>com.cxd.server.CxdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cxd</servlet-name>
+        <url-pattern>/cxd</url-pattern>
+    </servlet-mapping>
+</web-app>
